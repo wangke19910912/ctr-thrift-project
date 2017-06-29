@@ -1,11 +1,11 @@
 package com.codelab.model;
 
-import com.xiaomi.miui.ad.predict.data.HistoricalDataCorpus;
-import com.xiaomi.miui.ad.predict.thrift.model.AdData;
-import com.xiaomi.miui.ad.predict.thrift.model.ContextData;
-import com.xiaomi.miui.ad.predict.thrift.model.HistoricalData;
-import com.xiaomi.miui.ad.predict.thrift.model.UserData;
-import com.xiaomi.miui.ad.predict.util.TypeCollection;
+import com...ad.predict.data.HistoricalDataCorpus;
+import com...ad.predict.thrift.model.AdData;
+import com...ad.predict.thrift.model.ContextData;
+import com...ad.predict.thrift.model.HistoricalData;
+import com...ad.predict.thrift.model.UserData;
+import com...ad.predict.util.TypeCollection;
 import org.apache.hadoop.conf.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

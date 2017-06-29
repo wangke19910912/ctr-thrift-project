@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 public class ThriftMain {
     private static final Logger LOGGER = LoggerFactory.getLogger(ThriftMain.class);
     public static void main(String[] args) throws InterruptedException {
-        LOGGER.info("MiuiAdPrediction swift: service start...");
+        LOGGER.info("AdPrediction swift: service start...");
         Thread server = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -17,13 +17,13 @@ public class ThriftMain {
 
                 SwiftServiceStartupConfig startConfig = new SwiftServiceStartupConfig(null, null, false, true, true);
 
-                SwiftServiceRunner.IThriftInstanceProvider<AdPredictServiceImpl> provider = new SwiftServiceRunner.IThriftInstanceProvider<MiuiAdPredictServiceImpl>() {
+                SwiftServiceRunner.IThriftInstanceProvider<AdPredictServiceImpl> provider = new SwiftServiceRunner.IThriftInstanceProvider<AdPredictServiceImpl>() {
                     @Override
-                    public MiuiAdPredictServiceImpl getInstance(Class<MiuiAdPredictServiceImpl> serviceImplClass) throws Exception {
+                    public AdPredictServiceImpl getInstance(Class<AdPredictServiceImpl> serviceImplClass) throws Exception {
                         return scribeImpl;
                     }
                 };
-                SwiftServiceRunner.startThriftServer(startConfig, MiuiAdPredictServiceImpl.class, provider,
+                SwiftServiceRunner.startThriftServer(startConfig, AdPredictServiceImpl.class, provider,
                         "com.ft.ThriftMain.port", "com.ad.swift.ThriftMain.pool");
                 LOGGER.info("dPrediction swift: starting thrift service.");
                 System.out.println("Thrift service has started!");
@@ -32,6 +32,6 @@ public class ThriftMain {
         server.start();
         server.join();
 
-        LOGGER.info("MiuiAdPrediction swift: service end!");
+        LOGGER.info("AdPrediction swift: service end!");
     }
 }

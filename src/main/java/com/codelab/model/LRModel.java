@@ -1,14 +1,14 @@
 package com.codelab.model;
 
 import com.codelab.managers.ConstantManager;
-import com.xiaomi.common.perfcounter.PerfCounter;
-import com.xiaomi.miui.ad.predict.data.HistoricalDataCorpus;
-import com.xiaomi.miui.ad.predict.feature.FeatureManager;
-import com.xiaomi.miui.ad.predict.feature.IFeature;
-import com.xiaomi.miui.ad.predict.thrift.model.AdData;
-import com.xiaomi.miui.ad.predict.thrift.model.ContextData;
-import com.xiaomi.miui.ad.predict.thrift.model.UserData;
-import com.xiaomi.miui.ad.predict.util.TypeCollection;
+import com..common.perfcounter.PerfCounter;
+import com...ad.predict.data.HistoricalDataCorpus;
+import com...ad.predict.feature.FeatureManager;
+import com...ad.predict.feature.IFeature;
+import com...ad.predict.thrift.model.AdData;
+import com...ad.predict.thrift.model.ContextData;
+import com...ad.predict.thrift.model.UserData;
+import com...ad.predict.util.TypeCollection;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
@@ -110,7 +110,7 @@ public class LRModel extends Model {
             LOGGER.debug("fs.defaultFS:{}", conf.get("fs.defaultFS"));
             LOGGER.debug("fs.default.name:{}", conf.get("fs.default.name"));
             LOGGER.debug("dfs.nameservices:{}", conf.get("dfs.nameservices"));
-            LOGGER.debug("dfs.namenode.http-address.lgprc-xiaomi.host0 : {}", conf.get("dfs.namenode.http-address.lgprc-xiaomi.host0"));
+            LOGGER.debug("dfs.namenode.http-address.lgprc-.host0 : {}", conf.get("dfs.namenode.http-address.lgprc-.host0"));
             LOGGER.debug("dfs.block.access.token.enable : {}" ,conf.get("dfs.block.access.token.enable"));
             FileSystem fs = FileSystem.get(conf);
             LOGGER.debug("fs.getHomeDirectory :{}", fs.getHomeDirectory());

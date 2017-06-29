@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class AdPredictServiceImpl implements PredictService {
     private static final Logger LOGGER = LoggerFactory.getLogger(AdPredictServiceImpl.class);
-    private static AdPredict miuiAdPredictService = AdPredict.getInstance();
+    private static AdPredict AdPredictService = AdPredict.getInstance();
 
     public AdPredictServiceImpl() {
         super();

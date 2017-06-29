@@ -1,8 +1,8 @@
 package com.codelab.util;
 
-import com.xiaomi.miliao.zookeeper.EnvironmentType;
-import com.xiaomi.miliao.zookeeper.ZKClient;
-import com.xiaomi.miliao.zookeeper.ZKFacade;
+import com..miliao.zookeeper.EnvironmentType;
+import com..miliao.zookeeper.ZKClient;
+import com..miliao.zookeeper.ZKFacade;
 import org.apache.commons.lang.StringUtils;
 import org.dom4j.Document;
 import org.dom4j.io.SAXReader;
@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ZkAppConfig {
     private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(ZkAppConfig.class);
-    //private static final String ZK_NODE_PATH = "/services/com.xiaomi.miui.ad.yidian.ctr.thrift.service.MiuiYidianCTRPredictionService/AppConfig";
+    //private static final String ZK_NODE_PATH = "/services/com...ad.yidian.ctr.thrift.service.YidianCTRPredictionService/AppConfig";
     //private static final int TIME_TO_CHECK_ZK_IN_SECONDS = 60;
     private static boolean initOK = false;
     private static Document zkDocument = null;

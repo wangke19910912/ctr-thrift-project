@@ -16,12 +16,12 @@ public class CommonConstant {
     public static final String HBASE_TABLE_YIDIAN_USER = "mi_ad_user_data";
 
     // new hbase table
-    public static final String HBASE_TABLE_USER_DATA = "hbase://c3miuisrv-adsctr/miui_ad:miui_ad_algorithm_data";
-    public static final String HBASE_TABLE_USER_DATA_NAME = "miui_ad:miui_ad_algorithm_data";
+    public static final String HBASE_TABLE_USER_DATA = "hbase://c3srv-adsctr/_ad:_ad_algorithm_data";
+    public static final String HBASE_TABLE_USER_DATA_NAME = "_ad:_ad_algorithm_data";
 
-    public static final String HBASE_CONFIG_TABLE_USER = "miui_ad/predict_user_data";
+    public static final String HBASE_CONFIG_TABLE_USER = "_ad/predict_user_data";
 
-    public static final String HBASE_CONFIG_TABLE_USER_NEW = "miui_ad/predict_user_data_0.98";
+    public static final String HBASE_CONFIG_TABLE_USER_NEW = "_ad/predict_user_data_0.98";
 
     public static final String ZK_NODE_PATH = "/AppConfig";
 

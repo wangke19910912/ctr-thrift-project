@@ -1,8 +1,8 @@
 package com.codelab.util;
 
-import com.xiaomi.miliao.zookeeper.ZKClient;
-import com.xiaomi.miliao.zookeeper.ZKFacade;
-import com.xiaomi.miui.ad.util.zookeeper.ZKProperties;
+import com..miliao.zookeeper.ZKClient;
+import com..miliao.zookeeper.ZKFacade;
+import com...ad.util.zookeeper.ZKProperties;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.ByteArrayInputStream;
@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ZkAppConfigForStatic {
     private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger(ZkAppConfigForStatic.class);
-    private static final String ZK_NODE_PATH = "/services/com.xiaomi.miui.ad.predict.thrift.service.MiuiAdPredictService/AppConfigStatic";
+    private static final String ZK_NODE_PATH = "/services/com...ad.predict.thrift.service.AdPredictService/AppConfigStatic";
     private static final int TIME_TO_CHECK_ZK_IN_SECONDS = 30;
 
     private static boolean initOK = false;

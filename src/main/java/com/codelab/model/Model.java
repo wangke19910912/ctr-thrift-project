@@ -1,13 +1,13 @@
 package com.codelab.model;
 
 import com.meidusa.amoeba.util.StringUtil;
-import com.xiaomi.common.perfcounter.PerfCounter;
-import com.xiaomi.miui.ad.predict.data.HistoricalDataCorpus;
-import com.xiaomi.miui.ad.predict.thrift.model.AdData;
-import com.xiaomi.miui.ad.predict.thrift.model.ContextData;
-import com.xiaomi.miui.ad.predict.thrift.model.UserData;
-import com.xiaomi.miui.ad.predict.util.CommonConstant;
-import com.xiaomi.miui.ad.predict.util.TypeCollection;
+import com..common.perfcounter.PerfCounter;
+import com...ad.predict.data.HistoricalDataCorpus;
+import com...ad.predict.thrift.model.AdData;
+import com...ad.predict.thrift.model.ContextData;
+import com...ad.predict.thrift.model.UserData;
+import com...ad.predict.util.CommonConstant;
+import com...ad.predict.util.TypeCollection;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;

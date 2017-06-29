@@ -1,17 +1,17 @@
 package com.codelab.model;
 
 import com.meidusa.amoeba.util.StringUtil;
-import com.xiaomi.common.perfcounter.PerfCounter;
-import com.xiaomi.miui.ad.predict.data.HistoricalDataCorpus;
-import com.xiaomi.miui.ad.predict.feature.FeatureManager;
-import com.xiaomi.miui.ad.predict.feature.IFeature;
-import com.xiaomi.miui.ad.predict.proxy.PegasusAccessor;
-import com.xiaomi.miui.ad.predict.thrift.model.AdData;
-import com.xiaomi.miui.ad.predict.thrift.model.ContextData;
-import com.xiaomi.miui.ad.predict.thrift.model.UserData;
-import com.xiaomi.miui.ad.predict.util.ConstantManager;
-import com.xiaomi.miui.ad.predict.util.TypeCollection;
-import com.xiaomi.miui.ad.predict.util.ZkAppConfigForStatic;
+import com..common.perfcounter.PerfCounter;
+import com...ad.predict.data.HistoricalDataCorpus;
+import com...ad.predict.feature.FeatureManager;
+import com...ad.predict.feature.IFeature;
+import com...ad.predict.proxy.PegasusAccessor;
+import com...ad.predict.thrift.model.AdData;
+import com...ad.predict.thrift.model.ContextData;
+import com...ad.predict.thrift.model.UserData;
+import com...ad.predict.util.ConstantManager;
+import com...ad.predict.util.TypeCollection;
+import com...ad.predict.util.ZkAppConfigForStatic;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
@@ -34,7 +34,7 @@ public class StreamLRModel extends Model{
     private static final Logger LOGGER = LoggerFactory.getLogger(StreamLRModel.class);
 
     private static final String modelName = "ModelName";
-    private static final String tableName = "miui_adlabel";
+    private static final String tableName = "_adlabel";
     private static final int timeToUpdateModelInternel = 600;
     private static final Double defaultCTR = 0.0000001;
 

@@ -1,6 +1,6 @@
 package com.codelab.util;
 
-import com.xiaomi.miui.ad.predict.model.Model;
+import com...ad.predict.model.Model;
 
 import java.util.Map;
 
